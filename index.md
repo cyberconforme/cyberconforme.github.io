@@ -15,6 +15,8 @@ Des ressources gratuites et pratiques pour réussir votre conformité **ISO 2700
 - [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%d/%m/%Y" }})
 {% endfor %}
 
+👉 [Voir tous les articles](/blog)
+
 ---
 
 ## 🚀 Notre mission
