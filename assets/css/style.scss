@@ -5,6 +5,22 @@
 
 /* 🎨 Personnalisation CyberConforme */
 
+/* Logo + titre côte à côte */
+.site-title {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centre le tout */
+  gap: 12px; /* espace entre logo et texte */
+}
+
+.site-title::before {
+  content: url("/assets/images/logo.png"); /* chemin du logo */
+  display: inline-block;
+  height: 40px; /* ajuste la taille */
+  width: auto;
+}
+
+
 /* Liens */
 a {
   color: #2563eb; /* bleu */
