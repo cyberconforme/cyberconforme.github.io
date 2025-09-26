@@ -7,6 +7,8 @@ title: CyberConformité
 
 Des ressources gratuites et pratiques pour réussir votre conformité **ISO 27001**, **NIS2**, **RGPD** et cybersécurité.  
 
+👉 [Découvrir nos articles](/blog){: .btn }
+
 ---
 
 ## 📘 Articles récents
