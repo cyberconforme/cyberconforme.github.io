@@ -3,10 +3,11 @@
 
 @import "{{ site.theme }}";
 
-/* Couleurs personnalisées */
+/* 🎨 Personnalisation CyberConforme */
 body {
-  background-color: #111827; /* gris foncé élégant */
+  background-color: #111827; /* gris foncé sobre */
   color: #f9fafb; /* texte clair */
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 a {
@@ -15,4 +16,9 @@ a {
 
 a:hover {
   color: #60a5fa;
+}
+
+/* Titres colorés */
+h1, h2, h3 {
+  color: #facc15; /* jaune doré cyber */
 }
