@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NIS2 : quelles obligations pour les PME ?"
-date: 2025-09-26
+date: 2025-09-27
 author: "CyberConforme"
 categories: [NIS2, conformite, cybersecurite]
 ---
