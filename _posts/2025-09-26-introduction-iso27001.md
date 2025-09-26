@@ -3,7 +3,7 @@ layout: post
 title: "Comprendre l’ISO 27001 en 10 points"
 date: 2025-09-26
 author: "CyberConforme"
-categories: [ISO27001, conformité]
+categories: [ISO27001, conformite]
 ---
 
 ## Qu’est-ce que l’ISO 27001 ?
