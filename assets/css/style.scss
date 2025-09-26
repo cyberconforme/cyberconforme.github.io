@@ -1,42 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
-/* 🎨 Personnalisation CyberConforme */
-
-/* Logo + titre côte à côte */
-.project-name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-}
-
-.project-name::before {
-  content: url("/assets/images/logo.png");
-  display: inline-block;
-  height: 40px;
-  width: auto;
-}
-
-/* Liens */
-a {
-  color: #2563eb; /* bleu */
-  text-decoration: none;
-}
-
-a:hover {
-  color: #1d4ed8; /* bleu foncé */
-  text-decoration: underline;
-}
-
-/* Titres */
-h1, h2, h3 {
-  color: #111827; /* gris foncé lisible */
-  font-weight: bold;
-}
-
 /* Bouton call-to-action */
 .btn {
   display: inline-block;
@@ -51,4 +12,12 @@ h1, h2, h3 {
 
 .btn:hover {
   background: #1d4ed8; /* bleu foncé au survol */
+}
+
+/* ✅ Ajustement du logo dans le header */
+.project-name img {
+  height: 36px;   /* taille du logo */
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
 }
