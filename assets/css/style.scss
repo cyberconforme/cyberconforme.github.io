@@ -6,17 +6,17 @@
 /* 🎨 Personnalisation CyberConforme */
 
 /* Logo + titre côte à côte */
-.site-title {
+.header .project-name {
   display: flex;
   align-items: center;
-  justify-content: center; /* centre le tout */
-  gap: 12px; /* espace entre logo et texte */
+  justify-content: center;
+  gap: 12px;
 }
 
-.site-title::before {
-  content: url("/assets/images/logo.png"); /* chemin du logo */
+.header .project-name::before {
+  content: url("/assets/images/logo.png");
   display: inline-block;
-  height: 40px; /* ajuste la taille */
+  height: 40px;
   width: auto;
 }
 
