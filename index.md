@@ -9,12 +9,11 @@ Des ressources gratuites et pratiques pour réussir votre conformité **ISO 2700
 
 ---
 
-## 📘 Nos articles récents
-- [Comprendre l’ISO 27001 en 10 points](#)  
-- [NIS2 : obligations pour les PME](#)  
-- [Checklist RGPD pour les entreprises](#)  
+## 📘 Articles récents
 
-*(Les liens pointeront vers tes futurs articles)*  
+{% for post in site.posts limit:5 %}
+- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%d/%m/%Y" }})
+{% endfor %}
 
 ---
 
@@ -28,4 +27,4 @@ Aider les entreprises, associations et collectivités à :
 
 ## 📩 Contact
 Vous souhaitez en savoir plus ou collaborer ?  
-👉 Écrivez-nous à **contact@cyberconforme.fr**  
+👉 Écrivez-nous à **contact@cyberconforme.fr**
