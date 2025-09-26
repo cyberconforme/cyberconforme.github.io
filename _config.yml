@@ -12,3 +12,5 @@ nav:
     link: /about
   - name: "Contact"
     link: /#contact
+logo: /logo.png
+favicon: /favicon.ico
