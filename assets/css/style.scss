@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Couleurs personnalisées */
+body {
+  background-color: #111827; /* gris foncé élégant */
+  color: #f9fafb; /* texte clair */
+}
+
+a {
+  color: #3b82f6; /* bleu vif pour les liens */
+}
+
+a:hover {
+  color: #60a5fa;
+}
