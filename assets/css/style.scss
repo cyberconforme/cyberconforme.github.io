@@ -4,34 +4,30 @@
 @import "{{ site.theme }}";
 
 /* 🎨 Personnalisation CyberConforme */
-body {
-  background-color: #111827; /* gris foncé sobre */
-  color: #f9fafb; /* texte clair */
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
-  line-height: 1.6;
-}
 
+/* Liens */
 a {
-  color: #3b82f6; /* bleu vif pour les liens */
+  color: #2563eb; /* bleu */
   text-decoration: none;
 }
 
 a:hover {
-  color: #60a5fa;
+  color: #1d4ed8; /* bleu foncé */
   text-decoration: underline;
 }
 
-/* Titres colorés */
+/* Titres */
 h1, h2, h3 {
-  color: #facc15; /* jaune doré cyber */
+  color: #111827; /* gris foncé lisible */
+  font-weight: bold;
 }
 
 /* Bouton call-to-action */
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background: #3b82f6;
-  color: white;
+  background: #2563eb; /* bleu principal */
+  color: white !important;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
@@ -39,5 +35,5 @@ h1, h2, h3 {
 }
 
 .btn:hover {
-  background: #2563eb;
+  background: #1d4ed8; /* bleu foncé au survol */
 }
