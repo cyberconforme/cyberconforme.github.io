@@ -1,3 +1,14 @@
 title: "CyberConforme"
 description: "Cybersécurité & Conformité simplifiées"
 theme: jekyll-theme-slate
+sass:
+  style: compressed
+nav:
+  - name: "Accueil"
+    link: /
+  - name: "Blog"
+    link: /blog
+  - name: "À propos"
+    link: /about
+  - name: "Contact"
+    link: /#contact
