@@ -2,7 +2,6 @@
 layout: default
 title: CyberConformité
 ---
-<img src="/assets/images/logo.png" alt="Logo CyberConforme" width="120">
 
 # 🔐 Bienvenue sur **CyberConformité**
 
