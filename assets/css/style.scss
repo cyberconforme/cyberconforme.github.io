@@ -6,20 +6,19 @@
 /* 🎨 Personnalisation CyberConforme */
 
 /* Logo + titre côte à côte */
-.header .project-name {
+.project-name {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
 }
 
-.header .project-name::before {
+.project-name::before {
   content: url("/assets/images/logo.png");
   display: inline-block;
   height: 40px;
   width: auto;
 }
-
 
 /* Liens */
 a {
