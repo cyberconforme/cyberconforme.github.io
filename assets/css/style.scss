@@ -14,17 +14,19 @@
   background: #1d4ed8; /* bleu foncé au survol */
 }
 
-/* Supprimer le fond/bloc autour du logo */
+/* Supprimer le style par défaut du thème sur le logo */
 .project-name img {
-  background: none !important;
-  box-shadow: none !important;
+  background: transparent !important;
   border: none !important;
+  box-shadow: none !important;
   padding: 0 !important;
   margin: 0 10px 0 0 !important;
-  height: 50px; /* ajuste la taille */
+  border-radius: 0 !important; /* enlève l'effet arrondi/bloc */
+  height: 50px;
   width: auto;
   vertical-align: middle;
 }
+
 
 /* Rendre le texte du titre blanc */
 .project-name {
