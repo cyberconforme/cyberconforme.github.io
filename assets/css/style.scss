@@ -47,12 +47,15 @@
 
 /* Logo du site */
 .site-logo {
-  height: 60px;        /* taille du logo */
-  width: auto;         /* garder les proportions */
+  height: 40px;        /* taille réduite */
+  width: auto;         /* garde les proportions */
   vertical-align: middle;
-  margin-right: 12px;
-  background: none !important; /* enlever tout fond */
+  margin-right: 10px;
+  background: none !important;
   border: none !important;
+  box-shadow: none !important;
+}
+
   box-shadow: none !important;
 }
 
