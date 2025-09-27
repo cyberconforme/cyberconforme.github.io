@@ -44,16 +44,19 @@
   text-decoration: none !important;
 }
 
-
-/* Logo du site */
+/* Logo CyberConforme */
 .site-logo {
-  height: 40px;        /* taille réduite */
-  width: auto;         /* garde les proportions */
+  height: 40px;       /* taille fixe */
+  max-height: 40px;   /* évite qu'il grossisse */
+  width: auto;        /* garde les proportions */
   vertical-align: middle;
   margin-right: 10px;
+
+  /* supprime tout fond/contour */
   background: none !important;
   border: none !important;
   box-shadow: none !important;
+  padding: 0 !important;
 }
 
   box-shadow: none !important;
