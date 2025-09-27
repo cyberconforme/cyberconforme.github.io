@@ -14,21 +14,30 @@
   background: #1d4ed8; /* bleu foncé au survol */
 }
 
+/* Conteneur du logo + texte */
+.project-name {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espace entre logo et texte */
+  color: #ffffff !important;
+}
+
+/* Forcer la couleur du lien/titre */
+.project-name a,
+.project-name h1,
+.project-name span {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
 /* Supprimer le style par défaut du thème sur le logo */
 .project-name img {
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
-  margin: 0 10px 0 0 !important;
-  border-radius: 0 !important; /* enlève l'effet arrondi/bloc */
-  height: 50px;
+  margin: 0 !important;
+  height: 55px; /* ajuste la taille */
   width: auto;
   vertical-align: middle;
-}
-
-
-/* Rendre le texte du titre blanc */
-.project-name {
-  color: #ffffff !important;
 }
