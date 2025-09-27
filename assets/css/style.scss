@@ -14,30 +14,33 @@
   background: #1d4ed8; /* bleu foncé au survol */
 }
 
-/* Conteneur du logo + texte */
-.project-name {
+/* ===== Header : logo + titre ===== */
+#header_wrap .inner .project-name {
   display: flex;
   align-items: center;
-  gap: 10px; /* espace entre logo et texte */
-  color: #ffffff !important;
+  justify-content: center;
+  gap: 12px;
+  color: #ffffff !important;          /* titre en blanc */
+  text-shadow: none !important;        /* optionnel : plus net */
 }
 
-/* Forcer la couleur du lien/titre */
-.project-name a,
-.project-name h1,
-.project-name span {
-  color: #ffffff !important;
-  text-decoration: none !important;
-}
+#header_wrap .inner .project-name img {
+  height: 56px;                        /* ajuste si besoin : 50–60px */
+  width: auto;
+  margin: 0 10px 0 0 !important;
 
-/* Supprimer le style par défaut du thème sur le logo */
-.project-name img {
+  /* 🔧 neutralise le style "cadre blanc" du thème */
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
-  margin: 0 !important;
-  height: 55px; /* ajuste la taille */
-  width: auto;
-  vertical-align: middle;
+  border-radius: 0 !important;
 }
+
+/* Au cas où le titre serait un lien */
+#header_wrap .inner .project-name a,
+#header_wrap .inner .project-name span {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
