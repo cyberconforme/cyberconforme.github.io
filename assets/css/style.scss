@@ -14,17 +14,19 @@
   background: #1d4ed8; /* bleu foncé au survol */
 }
 
-/* ✅ Ajustement du logo dans le header */
+/* Supprimer le fond/bloc autour du logo */
 .project-name img {
-  height: 50px;   /* un peu plus grand */
-  width: auto;
-  margin-right: 10px;
-  vertical-align: middle;
-  background: none !important; /* supprime tout fond ajouté */
-  box-shadow: none !important; /* enlève l’effet encadré */
+  background: none !important;
+  box-shadow: none !important;
   border: none !important;
+  padding: 0 !important;
+  margin: 0 10px 0 0 !important;
+  height: 50px; /* ajuste la taille */
+  width: auto;
+  vertical-align: middle;
 }
 
+/* Rendre le texte du titre blanc */
 .project-name {
-  color: white !important; /* titre en blanc */
+  color: #ffffff !important;
 }
