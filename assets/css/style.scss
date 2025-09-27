@@ -20,8 +20,11 @@
   width: auto;
   margin-right: 10px;
   vertical-align: middle;
+  background: none !important; /* supprime tout fond ajouté */
+  box-shadow: none !important; /* enlève l’effet encadré */
+  border: none !important;
 }
 
 .project-name {
-  color: white !important; /* texte du titre en blanc */
+  color: white !important; /* titre en blanc */
 }
