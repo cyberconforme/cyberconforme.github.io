@@ -44,3 +44,15 @@
   text-decoration: none !important;
 }
 
+
+/* Logo du site */
+.site-logo {
+  height: 60px;        /* taille du logo */
+  width: auto;         /* garder les proportions */
+  vertical-align: middle;
+  margin-right: 12px;
+  background: none !important; /* enlever tout fond */
+  border: none !important;
+  box-shadow: none !important;
+}
+
